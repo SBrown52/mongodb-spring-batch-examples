@@ -34,3 +34,5 @@ build/
 
 ### MongoDB files ###
 mongod.conf
+
+*.DS_Store
