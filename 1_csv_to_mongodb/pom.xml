@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sbrown52.examples</groupId>
-	<artifactId>mongodb-spring-batch</artifactId>
+	<artifactId>mongodb-spring-batch-csv</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mongodb-spring-batch</name>
-	<description>Examples on using MongoDB in Spring Batch jobs</description>
+	<name>mongodb-spring-batch-csv</name>
+	<description>Examples of using MongoDB in Spring Batch jobs - CSV</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -37,6 +37,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.batch</groupId>
 			<artifactId>spring-batch-test</artifactId>
