@@ -1,0 +1,23 @@
+server:
+  port: 7070
+
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27111
+      database: springbatch
+      collection: dogs
+  batch:
+    initialize-schema: always
+
+processing:
+  linesToSkip: 1
+  rawFile: ./sample-data.csv
+
+metadata:
+  database:
+    driver: org.h2.Driver
+    url: jdbc:h2:mem:springbatch_metadb;DB_CLOSE_DELAY=-1
+    user: sa
+    pass: sa
